@@ -17,6 +17,7 @@ public class items {
     public static final DeferredItem<Item> EXAMPLE_ITEM = ITEMS.registerSimpleItem("example_item", new Item.Properties().food(new FoodProperties.Builder()
             .alwaysEdible().nutrition(1).saturationModifier(2f).build()));
 
+
     public static final DeferredItem<Item> FLINT_HATCHET = ITEMS.register("flint_hatchet", () -> new AxeItem(Tiers.WOOD, new Item.Properties().rarity(Rarity.COMMON).durability(32).setNoRepair()));
 
 }
